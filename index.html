@@ -1,2 +1,24 @@
-
-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Planner</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Route Planner</h1>
+    <div id="map"></div>
+    <div class="container">
+        <form id="route-form">
+            <input type="text" id="stop-input" placeholder="Add a stop">
+            <button type="submit">Add Stop</button>
+        </form>
+        <ul id="stop-list"></ul>
+        <button id="plan-route">Plan Route</button>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
